@@ -1,0 +1,33 @@
+tr {
+  cursor: pointer;
+}
+tr:hover {
+  background-color: #f2f2f2;
+  color: blue;
+}
+.page-box {
+    overflow: hidden;
+    margin-top: 40px;
+}
+.page-box span {
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    border: 1px solid #569FE8;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #005EBF;
+    user-select: none;
+}
+.page-box >div {
+    display: inline-block;
+}
+.page-box span:hover,
+.page-box span:active {
+    background-color: #569FE8;
+    color: #fff;
+}

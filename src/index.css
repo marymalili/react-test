@@ -1,0 +1,31 @@
+/* body {
+    margin: 0;
+    padding: 20px 50px;
+} */
+.active-o {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+.active-o.active {
+  background-color: #ccc;
+}
+.active-o.un-active {
+  background-color: none;
+}
+.card-btn {
+  overflow: hidden;
+}
+.card-btn span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}

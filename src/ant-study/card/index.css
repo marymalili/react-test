@@ -1,0 +1,10 @@
+.card {
+    overflow: hidden;
+}
+.card .title-bar .active{
+    color: red;
+}
+
+.card .content-bar .active{
+    color: red;
+}
